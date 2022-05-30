@@ -35,7 +35,7 @@
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .add-task__wrapper {
@@ -152,17 +152,18 @@ button.delete img:hover {
 
 /* Completed */
 .completed-tasks label {
-    text-decoration: line-through color: #888;
+    text-decoration: line-through;
+    color: #888;
 }
 
 /* Edit Task */
 ul li input[type="text"] {
-    display: none
+    display: none;
 }
 
 ul .incomplete-tasks__item input[type="text"] {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 ul .incomplete-tasks__item label {
